@@ -14,12 +14,14 @@ t = to;
 
 n = int(input("What is the number of disks: "))
 
-def hanoi_game(n,rodFrom,rodHelper,rodTo):
-    if n == 0:
+
+def hanoi_game(x, rodFrom, rodHelper, rodTo):
+    if x == 0:
         pass
     else:
-        hanoi_game(n-1,rodFrom,rodTo,rodHelper)
+        hanoi_game(x - 1, rodFrom, rodTo, rodHelper)
         print(f"Move object from {rodFrom} to {rodTo}!")
-        hanoi_game(n-1,rodHelper,rodFrom,rodTo)
+        hanoi_game(x - 1, rodHelper, rodFrom, rodTo)
 
-print(hanoi_game(n,"A","B","C"))
+
+print(hanoi_game(n, "A", "B", "C"))

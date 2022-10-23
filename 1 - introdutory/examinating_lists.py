@@ -1,29 +1,29 @@
-list = []
+listTest = []
 
-print(id(list))
-print(type(list))
-print(list)
+print(id(listTest))
+print(type(listTest))
+print(listTest)
 
-list.append('nagi')
+listTest.append('nagi')
 
-print(id(list))
-print(type(list))
-print(list)
+print(id(listTest))
+print(type(listTest))
+print(listTest)
 
-list.append('nagi')
+listTest.append('nagi')
 
-print(id(list))
-print(type(list))
-print(list)
+print(id(listTest))
+print(type(listTest))
+print(listTest)
 
-list.append('nagi')
+listTest.append('nagi')
 
-print(id(list))
-print(type(list))
-print(list)
+print(id(listTest))
+print(type(listTest))
+print(listTest)
 
-list.append('nagi')
+listTest.append('nagi')
 
-print(id(list))
-print(type(list))
-print(list)
+print(id(listTest))
+print(type(listTest))
+print(listTest)

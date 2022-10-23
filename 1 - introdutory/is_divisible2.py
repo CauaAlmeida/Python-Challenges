@@ -1,4 +1,4 @@
-num = int (input('Input a number to see if it is divisible by 3 and 5: '))
+num = int(input('Input a number to see if it is divisible by 3 and 5: '))
 r1 = num % 3
 r2 = num % 5
 

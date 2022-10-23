@@ -2,12 +2,14 @@ import random
 
 random_num = 0
 
+
 def generateRandomNum():
-    random_num = random.randint(0,100)
-    if random_num > 99:
+    random_x = random.randint(0, 100)
+    if random_x > 99:
         pass
     else:
-        print(random_num)
+        print(random_x)
         generateRandomNum()
+
 
 generateRandomNum()

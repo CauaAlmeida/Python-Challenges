@@ -6,17 +6,18 @@ from functools import lru_cache
 # fib(2) = 1
 # ...
 
-#INPUT THE RANGE OF THE ANALYSIS
-n = int (input('Write the range: '))
+# INPUT THE RANGE OF THE ANALYSIS
+n = int(input('Write the range: '))
+
 
 # LEAST RECENTLY USED CACHE
 # 
 
-@lru_cache(maxsize= 1000)
-def fib(n):
+@lru_cache(maxsize=1000)
+def fib(x):
+    if x in {0, 1}:
+        return x
+    return fib(x - 1) + fib(x - 2)
 
-    if n in {0, 1}:
-        return n
-    return fib(n - 1) + fib(n - 2)
 
 print([fib(n) for n in range(n)])

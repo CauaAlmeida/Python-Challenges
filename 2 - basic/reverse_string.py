@@ -4,6 +4,7 @@ def reverse(str):
         reversed = char + reversed
     return reversed
 
+
 str = input("Input what you want to reverse: ")
 n = reverse(str)
-print (n)
+print(n)

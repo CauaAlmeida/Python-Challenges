@@ -1,5 +1,5 @@
-b = int (input('What is the base of the rectangle? '))
-h = int (input('What is the height of the rectangle? '))
+b = int(input('What is the base of the rectangle? '))
+h = int(input('What is the height of the rectangle? '))
 
 perimeter = 2 * (b + h)
 

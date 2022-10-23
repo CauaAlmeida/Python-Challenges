@@ -1,4 +1,4 @@
-print("This is a conversor of miles to kilometers")
+print("This app makes a conversion of miles to kilometers")
 miles = float(input("Type the distance in miles: "))
 approximation = 1.609344
 
